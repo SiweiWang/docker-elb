@@ -1,0 +1,5 @@
+[template]
+src = "config.conf.tmpl"
+dest = "~/elb/nginx.conf"
+keys = [ "elb/hostname",]
+reload_cmd = "docker restart elb"
